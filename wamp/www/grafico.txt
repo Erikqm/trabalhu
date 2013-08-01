@@ -1,0 +1,20 @@
+ google.load('visualization', '1', {packages: ['corechart']});
+ </script>
+ <script type="text/javascript">
+ function drawVisualization() {
+ var data = new google.visualization.DataTable();
+ data.addColumn('string', 'Task');
+ data.addColumn('number', 'Hours per Day');
+ data.addRows(5);
+ data.setValue(0, 0, 'Bom');
+ data.setValue(0, 1, 68);
+ data.setValue(1, 0, 'Regular');
+ data.setValue(1, 1, 25);
+ data.setValue(2, 0, 'Ruim');
+ data.setValue(2, 1, 7);
+ 
+ new google.visualization.PieChart(document.getElementById('visualization')).
+ draw(data, {title:"O que compradores acharam desse produto?"});
+ }
+ 
+ google.setOnLoadCallback(drawVisualization);

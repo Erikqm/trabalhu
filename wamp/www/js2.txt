@@ -1,0 +1,57 @@
+
+.tabberlive .tabbertabhide {
+display:none;}
+
+.tabber {}
+.tabberlive {
+margin-top:1em;}
+
+ul.tabbernav{
+margin:0;
+padding: 3px 0;
+font: 11px tahoma; }
+
+ul.tabbernav li{
+list-style: none;
+margin: 0;
+display: inline;}
+
+ul.tabbernav li a{
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #dedede;
+background: #f2f2f2;
+text-decoration: none;}
+
+ul.tabbernav li a:link { color: #bebebe; }
+ul.tabbernav li a:visited { color: #bebebe; }
+
+ul.tabbernav li a:hover{
+color:#9dd7ff;
+background:#f4f4f4;}
+
+ul.tabbernav li.tabberactive a{
+background-color: #feeef5;
+border: 1px solid #ffabcc;}
+
+ul.tabbernav li.tabberactive a:hover{
+color: #f5a0c0;
+background-color: #feeef5;
+border-bottom: 1px solid #ffabcc;}
+
+.tabberlive .tabbertab {
+ padding:5px;
+ border-top:0px none;
+}
+
+.tabberlive .tabbertab h2 {
+ display:none;}
+
+.tabberlive .tabbertab h3 {
+ display:none;}
+
+.tabberlive#tab1 {}
+.tabberlive#tab2 {}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;}

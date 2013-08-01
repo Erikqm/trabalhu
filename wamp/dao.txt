@@ -1,0 +1,39 @@
+<?php
+
+function select($table="produt", $campo="1", $param="1") {
+	$resultado = new Array();
+	$sql="select * from $tabela where $campo=$param";
+	$consulta = mysql_query($sql);
+	while($row = mysql_fetch_row($consulta))
+		$resultado[]=$row;
+	return $resultado; }
+
+function insert(
+
+
+
+?>
+
+<form action="blabla.php" method="post" bla bla bla
+</form>
+
+
+blabla.php --
+
+
+
+$_POST['']
+
+
+
+
+
+
+
+
+carinho.php
+
+
+
+$_SESSION['carinho'] = new Array();
+$_SESSION['carinho'][1] = 3;
