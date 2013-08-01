@@ -1,7 +1,7 @@
 ﻿<?php
    session_start();
    if (isset($_SESSION["nome"])){
-   	$H=1;}
+   	$H=2;}
    else {       
     header("location:login.php");}
    ?>
